@@ -1,0 +1,249 @@
+-----------------------------------------------------------------------
+Phase number: 1
+Phase title: Commander's Objectives, Targeting Guidance, and Intent
+-----------------------------------------------------------------------
+ 
+1. Phase description: This phase takes strategic guidance from POTUS and SECDEF to develop a clear and concise expression of a military operation's purpose.  Targeting guidance is issued for use in follow-on phases. 
+
+
+2. Phase Inputs: 
+	-Strategic Guidance from President and SECDEF
+	-Joint Planning Process (JPP) mission analysis
+
+
+3. Phase outputs:
+	-Targeting priorities
+	-Time Sensitive Target (TST) criteria and procedures
+	-Target acquisition and identification criteria
+	-Authorized actions against targets
+	-Any delegated responsibilities for target validation and approval
+
+
+
+-----------------------------------------------------------------------
+Phase number: 2
+Phase title: Target Development and Prioritization
+-----------------------------------------------------------------------
+ 
+1. Phase description: This phase identifies and characterizes potential targets that, when successfully engaged, support the achievement of the commander's objectives. 
+
+
+2. Phase Inputs:
+	-Commander's objectives and intent from Phase 1
+	-Targeting priorities
+	-Time Sensitive Target (TST) criteria and procedures
+	-Target acquisition and identification criteria
+	-Authorized actions against targets
+	-Any delegated responsibilities for target validation and approval
+
+3. Phase outputs:
+	-Prioritized list of targets
+
+4. Subprocesses: 
+	a) Subprocess 1: Target Systems Analysis (TSA)
+		i) Inputs: 
+			-Commander's objectives and intent from Phase 1
+		ii) Outputs:
+			-A list of potential targets
+		iii) Steps: 
+		*AI: At this stage, LLMs could be used to help an analyst query various databases to research potential targets and target systems.*
+			1. Evaluate which target systems are relevant to the planning effort (e.g., C2 structure, ground forces, petroleum industry)
+			2. Identify target system components
+			3. Identify which targets (or components of a target system) should or could be engaged:
+				a. Considers both criticality (i.e., a target's importance and its contribution to a target system's larger function) and 				   vulnerability (i.e., the susceptibility of the target to damage, disruption, intrusion, interference, etc.) 	
+	b) Subprocess 2: Intermediate Target Development
+		*AI: AI systems could aid the analyst in pulling together data from different sources and building out electronic targeting files.*
+		i) Inputs: 
+			-The list of potential targets from the TSA process
+		ii) Outputs:
+			-Electronic Targeting Files containing data for each potential target (including aimpoint selection, expressed as a Joint Desired 			 Point of Impact (JDPI) code or a Non-Lethal Reference Point (NLRP) code for aimpoints intended to create non-lethal effects)
+
+	c) Subprocess 3: Target List Management (TLM)
+		i) Inputs: 
+			-The list of potential targets from the TSA process
+			-Electronic Targeting Files
+		ii) Outputs:
+			-A prioritized list of targets
+		iii) Steps: 
+			1. Target Vetting (this step is optional, at the discretion of the JFC)--highlights considerations for engagement of targets that 			   are at high risk of being mischaracterized or are potentially dual-use
+			2.Target Validation--makes sure that targets meet the objectives and criteria outlined in the commander's guidance and comply with 			  the law of war and ROE
+			3. Listing--targets added to the Joint Target List (JTL) or Restricted Target List (RTL)
+			4. Nomination--targets placed onto Target Nomination Lists (TNLs) which are then compiled into a draft JIPTL and submitted to JFC 			   for approval
+-----------------------------------------------------------------------
+Phase number: 3
+Phase title: Capabilities Analysis
+-----------------------------------------------------------------------
+ 
+1. Phase description: This phase identifies the options available to the component commander for target engagement and develops the best possible solution           to engage the target. 
+
+
+2. Phase Inputs:
+	-Potential weapons to use for engagement and their capabilities
+	-Target lists and data from Phases 1 and 2
+
+3. Phase outputs:
+
+
+4. Subprocesses: 
+	a) Subprocess 1: Target Vulnerability Analysis
+		i) Inputs: 
+			-target data from phases 1 and 2
+		ii) Outputs:
+			-Target vulnerabilities
+		iii) Steps: 
+			1. Reveals all aspects of the target that, if engaged, would result in a reduction in the target's ability to perform its function 			   for the adversary.
+	b) Subprocess 2: Capabilities Assessment
+		i) Inputs: 
+			-Target vulnerabilities
+			-Potential weapons to use for engagement and their capabilities
+		ii) Outputs:
+			-A list of Asset Target Interactions (ATIs)
+		iii) Steps: 
+			1.Based on target vulnerabilities, component commanders assign target engagement capabilities to each target to create either lethal 			  or non-lethal effects.
+			2.These assignments are captured in Asset Target Interactions (ATIs) that are then compiled into a list. 
+	c) Subprocess 3: Feasibility Assessment
+		i) Inputs: 
+			-List of ATIs
+		ii) Outputs:
+			-A analysis of the feasibility of each ATI
+		iii) Steps: 
+			1. Each ATI is evaluated for feasibility. Feasibility can include whether legal authority exists for an ATI. 
+			
+	d) Subprocess 4: Effects Estimate
+		i) Inputs: 
+			-List of feasible ATIs
+		ii) Outputs:
+			-Effects estimate for each ATI
+		iii) Steps: 
+			1. First, second, and higher order effects are identified for each feasible ATI
+			2. Collateral Damage Estimation (CDE) is performed
+			3. Attrition calculations done
+			4. If the target is a threat network, then Social Network Analysis is done to identify the effects on the network
+			5. In cases where collateral damage may exceed theater sensitive target criteria, targets are referred to either the SECDEF or POTUS 			   using the Sensitive Target Approval and Review (STAR) process
+-----------------------------------------------------------------------
+Phase number: 4
+Phase title: Commander's Decision and Force Assignment
+-----------------------------------------------------------------------
+ 
+1. Phase description: In this phase, the data from the previous phases is consolidated and targets are matched to operational capabilities. Forces are      assigned to targets. 
+	
+
+2. Phase Inputs:
+	-Draft JIPTL and/or List of Feasible ATIs
+	-Status/availability of operational forces
+
+3. Phase outputs:
+	-Tasking Orders
+	
+
+
+4. Subprocesses: 
+	a) Subprocess 1: Consolidate Target Development and Capabilities Analysis Results
+		i) Inputs: 
+			-Target data from phases 2 and 3
+		ii) Outputs:
+			-Target summary files and worksheets
+		iii) Steps: 
+			1. Targeting personnel assemble targeting data to produce digestible summary files containing information regarding:
+				a. Capabilities analysis:
+					i. Estimates of weapons effects and damage criteria (factoring in forces used, delivery systems, weapons 						   fuzing/reliability, delivery parameters and arrival conditions)
+				       ii. Multiple weaponeering solutions are often presented for each JDPI/target
+				b. Collateral damage estimate (CDE):
+					*Legal: This CDE is used to inform the commander's application of the law of war principle of proportionality and to 						assess both mission and strategic risk.*
+					i. A CDE is provided for each weaponeering solution
+				c. Attrition calculations: 
+					*AI: Attrition models could rely on AI or technology similar to that contained in what we think of as AI systems. 					     Neural networks, for example, could be used to generate predict whether a weapon will arrive on target by 				                     consolidating data on weather, maintenance status of equipment, type of munition, fuzing, weapon reliability, 					     and more. LLMs and other AI systems could help analysts pull together data on the enemy's defensive posture, 					     capabilities, and intentions.* 
+				       i. Intelligence analysts provide data on the enemy's defensive posture, capabilities, and intentions.
+				      ii. Weaponeers run attrition models to estimate the probability of the weapon arriving at the target (including 						  calculating both the probability of weapon release and probability of arrival on target)
+	b) Subprocess 2: Assemble Data on Friendly Force Status, Factoring in Operational Limitations and Apportionment Guidance
+		i) Inputs: 
+			-Force status data
+		ii) Outputs:
+			-Compiled information on force status and operational limitations
+		iii) Steps:
+			*Legal: Operational limitations can include Law of War and Rules of Engagement*
+			*AI: LLMs could help identify operational limitations by querying and summarizing data from relevant sources*  
+			1. Determine state and ability of friendly forces and munitions
+			2. Identify operational limitations (e.g., weather, adversary operations, force protection issues, etc.)
+				       
+
+	c) Subprocess 3: Assign Forces to Specific Targets and Supporting Missions
+		i) Inputs: 
+			-Target summary files and worksheets
+			-Compiled information on force status and operational limitations
+		ii) Outputs:
+			-List of specific targets with forces and capabilities assigned
+			-Draft JIPTL
+		iii) Steps: 
+			1. Component planners assign forces, munitions, capabilities and activities, and intelligence collection assets to specific targets 			   and aimpoints
+			2. Resolve timing, sequencing, and deconfliction issues
+	d) Subprocess 4: Present Joint Targeting Recommendations to the JFC for Approval
+		i) Inputs: 
+			-Draft JPTL
+		ii) Outputs:
+			-Approved JIPTL, disapproved JIPTL, or approved JIPTL with modifications
+		iii) Steps: 
+			1. Recommendations go to the JFC in the form of a draft JIPTL
+			2. The JFC can approve, disapprove, or approve the JIPTL with modifications
+	e) Subprocess 5: Issue Tasking Orders to Forces
+		i) Inputs: 
+			-Approved JIPTL
+		ii) Outputs:
+			-Tasking Orders
+		iii) Steps: 
+			1. Component tasking orders are prepared and issued to the assigned combat and support forces.
+			
+-----------------------------------------------------------------------
+Phase number: 5
+Phase title: Mission Planning and Force Execution
+-----------------------------------------------------------------------
+ 
+1. Phase description: In this phase, detailed, unit-level planning is done for executing operations. 
+
+
+2. Phase Inputs: 
+	-Tasking Orders
+
+
+3. Phase outputs:
+	-Action against a target
+	-Initial assessment of effects of the action
+
+*Note: In this phase, there are some differences between deliberate and dynamic targeting. It seems likely that autonomous systems and AI technology are being heavily used for dynamic targeting, giving the resource constraints and time-sensitive nature associate with it. The steps here present an overview of the "kill chain" that are generally applicable to all types of engagements.*
+
+4. Subprocesses: 
+	a) Subprocess 1: The 'kill chain'--F2T2EA
+		*AI: Computer vision and other technologies can be used to process raw sensor data and alert system operators when a potential target is detected. Other types of AI systems could be used to fuse data from different sensors and data streams to "fix"/positively identify a target. In the track step, AI systems could coordinate sensor activity to observe and monitor a target and predict its movements. In the engage step, automated weapons systems can be used to engage the target. Following the engagement, AI systems could perform an initial combat assessment to determine whether the desired effects were achieved.*
+		i) Inputs: 
+			- Tasking Order
+		ii) Outputs:
+			-Action against a target
+			-Initial assessment of effects of the action
+		iii) Steps: 
+		*Legal: In the "target" step, CDE guidance, the Law of War, and ROE are considered in addition to the requirements of the No Strike List and Restricted Targets list.*
+			1. Find: target is detected/located
+			2. Fix: sensors are focused to confirm target identification and its precise location. Targets are positively identified (PID). 
+			3. Track: target is observed and its activity and movement are monitored. 
+			4. Target: the decision is made to engage the target using the appropriate means to create the desired effects. Targets are 		                           validated to ensure they meet the objectives and criteria outline in the commander's guidance.
+			5. Engage: Action is taken against the target. 
+			6. Combat Assessment: An initial assessment of the action against the target is performed. 
+
+
+-----------------------------------------------------------------------
+Phase number: 6
+Phase title: Combat Assessment
+-----------------------------------------------------------------------
+ 
+1. Phase description: The purpose of this phase is to assess the effectiveness of the activities that occurred in the previous five phases of the joint targeting cycle. It helps the commander determine if the ends, ways, and means of joint targeting have been successful in progressing towards the accomplishment of the task. 
+
+
+2. Phase Inputs:
+	-The engagement
+	-Data relevant to the effectiveness of the engagement
+
+3. Phase outputs:
+	-Combat assessment at the tactical, operational, and strategic levels
+
+*AI: AI tools could be used to help monitor and assess the effectiveness of targeting by fusing  or processing sensor data, creating draft reports, monitoring data streams to alert analysts to events that may be of interest in determining an engagement's effects."
+
+

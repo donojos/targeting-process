@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Joint Targeting Process — Explainer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <h1 id="app-title">Loading…</h1>
+        <p id="app-subtitle" class="subtitle"></p>
+      </header>
+
+      <div
+        id="load-banner"
+        class="load-banner"
+        role="status"
+        aria-live="polite"
+      >
+        <p>
+          The content file could not be loaded automatically (common when
+          opening this page directly from disk). Use the button below to select
+          <strong>targeting_process.txt</strong> from the same folder, or open
+          this folder with a simple local web server so the page can load the
+          file by name.
+        </p>
+        <div class="load-actions">
+          <label class="btn btn-primary">
+            Choose targeting_process.txt…
+            <input
+              id="file-input"
+              class="file-input-hidden"
+              type="file"
+              accept=".txt,text/plain"
+            />
+          </label>
+        </div>
+      </div>
+
+      <main id="main-content"></main>
+
+      <footer class="site-footer">
+        <p id="app-footer-note"></p>
+      </footer>
+    </div>
+
+    <script type="module">
+      import {
+        parseTargetingData,
+        renderPage,
+        loadDataFromUrl,
+        loadDataFromFile,
+        showLoadBanner,
+      } from "./app.js";
+
+      function applyText(raw) {
+        const data = parseTargetingData(raw);
+        renderPage(data);
+        showLoadBanner(false);
+      }
+
+      async function init() {
+        try {
+          const raw = await loadDataFromUrl();
+          applyText(raw);
+        } catch {
+          showLoadBanner(true);
+          document.getElementById("app-title").textContent =
+            "Joint Targeting Process — Explainer";
+          document.getElementById("app-subtitle").textContent =
+            "Data is sourced from Joint Publication 3-60, Joint Targeting (28 Sept. 2018).";
+        }
+
+        document.getElementById("file-input").addEventListener("change", (e) => {
+          const file = e.target.files && e.target.files[0];
+          if (!file) return;
+          loadDataFromFile(file)
+            .then(applyText)
+            .catch(() => {
+              showLoadBanner(true);
+            });
+        });
+      }
+
+      init();
+    </script>
+  </body>
+</html>
