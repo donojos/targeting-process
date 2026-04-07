@@ -1015,7 +1015,7 @@ export function renderPage(data) {
   paint();
 }
 
-const DATA_FILE = "targeting_process.txt";
+const DATA_FILE = "targeting_process.txt?v=2";
 
 export async function loadDataFromUrl() {
   const res = await fetch(DATA_FILE, { cache: "no-store" });
