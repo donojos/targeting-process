@@ -77,6 +77,7 @@ Phase title: Capabilities Analysis
  
 1. Phase description: This phase identifies the options available to the component commander for target engagement and develops the best possible solution           to engage the target. 
 
+*AI: The Joint Munitions Effectiveness Manual Weaponeering System (JWS) is a standard, automated methodology for estimating the employment effectiveness of non-nuclear, kinetic weapons and facilitating force-sizing decisionmaking. It is augmented by the Integrated Munitions Effectiveness Assessment Tool, which is a modeling application designed to estmate weapon effectiveness against hardened/deeply buried targets. Similarly, the Hazard Prediction and Assessment Capability tool is used for chemical, biological, or radiological plume hazard in support of collateral damage estimation when targeting weapons of mass destruction. The Joint Capabilities Analysis and Assessment System includes tools that support weaponeering for cyber, electronic attack, and military support operations.*
 
 2. Phase Inputs:
 	-Potential weapons to use for engagement and their capabilities
