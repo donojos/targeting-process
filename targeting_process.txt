@@ -40,6 +40,7 @@ Phase title: Target Development and Prioritization
 	-Prioritized list of targets
 
 4. Subprocesses: 
+*AI: Target identification likely utilizes automated systems that are layered on top of various data streams/sources to help identify potential targets. For example, geospatial intelligence tools can be used to help targeteers identify and visualize the operational environment. Likewise, computer vision tools can be used to flag potential targets for targeteers. Presumably, similar tools exist for other types of data like EM signals and acoustic data. See Air Force Doctrine Publication 3-60 Appendix D, Targeting Automation (12 NOV 2021); Multi-Domain AI: The Future of Command and Control, Cameron Stanley, Chief Digital and Artificial Intelligence Officer for the Dep't of Defense www.youtube.com/watch?v=yrtyDgoqWmgM (13 MAR 2026).*
 	a) Subprocess 1: Target Systems Analysis (TSA)
 		i) Inputs: 
 			-Commander's objectives and intent from Phase 1
