@@ -4,7 +4,7 @@ Phase title: Commander's Objectives, Targeting Guidance, and Intent
 -----------------------------------------------------------------------
  
 1. Phase description: This phase takes strategic guidance from POTUS and SECDEF to develop a clear and concise expression of a military operation's purpose.  Targeting guidance is issued for use in follow-on phases. 
-
+*Legal: Air Force Doctrine Publication 3-60 Appendix B notes that it is the "policy of the DOD to comply with the law of war during all armed conflicts and other military operations regardless of how such conflicts and operations are characterized. . .military necessity does not provide authorization or justification for acts that are otherwise prohibited by the law of war." As such, it legal considerations must be analyzed during all phased of targeting. It notes that all targeting decisions rely on five fundamental principles: (1) military necessity, (2) humanity (avoid unnecessary suffering), (3) proportionality, (4) discrimination, and (5) honor. As a prerequisite to engaging in any military action, there should be a determination that the attack is necessary to quickly and efficiently defeat the enemy. See Air Force Doctrine Publication 3-60 Appendix A, Targeting and Legal Considerations (12 NOV 2021).*
 
 2. Phase Inputs: 
 	-Strategic Guidance from President and SECDEF
@@ -26,7 +26,7 @@ Phase title: Target Development and Prioritization
 -----------------------------------------------------------------------
  
 1. Phase description: This phase identifies and characterizes potential targets that, when successfully engaged, support the achievement of the commander's objectives. 
-
+*Legal: As part of this phase, potential targets are assessed to ensure they comply with national and command guidance, the law of war, and the applicable ROE.*
 
 2. Phase Inputs:
 	-Commander's objectives and intent from Phase 1
@@ -60,6 +60,7 @@ Phase title: Target Development and Prioritization
 			-Electronic Targeting Files containing data for each potential target (including aimpoint selection, expressed as a Joint Desired 			 Point of Impact (JDPI) code or a Non-Lethal Reference Point (NLRP) code for aimpoints intended to create non-lethal effects)
 
 	c) Subprocess 3: Target List Management (TLM)
+	*Legal: According to the Air Force targeting manual, the principle of military necessity justifies striking targets that are valid military objectives and the principle of discrimination requires that no attacks take place on targets that are not valid military objectives. The U.S. recognizes two categories of objectives as a matter of law: (1) military equipment and bases and (2) objects containing military objectives. It cites a residential home as an example of a non-military objective but states that the same home could become a military objective if an adversary uses it for a military purpose (such as a command post). See Air Force Doctrine Publication 3-60 Appendix A, Targeting and Legal Considerations (12 NOV 2021).*
 		i) Inputs: 
 			-The list of potential targets from the TSA process
 			-Electronic Targeting Files
@@ -75,9 +76,11 @@ Phase number: 3
 Phase title: Capabilities Analysis
 -----------------------------------------------------------------------
  
-1. Phase description: This phase identifies the options available to the component commander for target engagement and develops the best possible solution           to engage the target. 
+1. Phase description: This phase identifies the options available to the component commander for target engagement and develops the best possible solution to engage the target. 
 
 *AI: The Joint Munitions Effectiveness Manual Weaponeering System (JWS) is a standard, automated methodology for estimating the employment effectiveness of non-nuclear, kinetic weapons and facilitating force-sizing decisionmaking. It is augmented by the Integrated Munitions Effectiveness Assessment Tool, which is a modeling application designed to estmate weapon effectiveness against hardened/deeply buried targets. Similarly, the Hazard Prediction and Assessment Capability tool is used for chemical, biological, or radiological plume hazard in support of collateral damage estimation when targeting weapons of mass destruction. The Joint Capabilities Analysis and Assessment System includes tools that support weaponeering for cyber, electronic attack, and military support operations. See Air Force Doctrine Publication 3-60 Appendix D, Targeting Automation (12 NOV 2021).*
+
+*Legal: The U.S. considers all of the weapons in its inventory to be permissible for use under the law of war because they have been determined not t ocause unnecessary suffering when used in the manner for which they were designed. However, commanders are not prohibited from using an otherwise lawful weapon in a manner that causes unnecessary suffering. See Air Force Doctrine Publication 3-60 Appendix A, Targeting and Legal Considerations (12 NOV 2021).*
 
 2. Phase Inputs:
 	-Potential weapons to use for engagement and their capabilities
@@ -113,7 +116,7 @@ Phase title: Capabilities Analysis
 			
 	d) Subprocess 4: Effects Estimate
 	*AI: CDE is analyzed for strikes with kinetic weapons via the Digital Precision Strike Suite Collateral Damage Estimation tool. See Air Force Doctrine Publication 3-60 Appendix D, Targeting Automation (12 NOV 2021).*
-	*Legal: CDE analysts follow guiance in the publication CJCSI 3160.01 No-Strike and Collateral Damage Estimation Methodology to do CDE. CDE involves both determining the collateral damage effects of a weapon and how to mitigate those effects to comply with the ROW and law of war. See Air Force Doctrine Publication 3-60 Appendix D, Targeting Automation (12 NOV 2021).*
+	*Legal: CDE analysts follow guiance in the publication CJCSI 3160.01 No-Strike and Collateral Damage Estimation Methodology to do CDE. CDE involves both determining the collateral damage effects of a weapon and how to mitigate those effects to comply with the ROW and law of war. CDE is relevant to ensuring compliance with the law of war principle of proportionality, because attacks cannot cause excessive damage to civilian objects or persons relative to the military advantage. The DOD also recognizes that "military advantage" is not just a tactical gain, but can include advantages at the operational and strategic levels. See Air Force Doctrine Publication 3-60 Appendix D, Targeting Automation (12 NOV 2021); Air Force Doctrine Publication 3-60 Appendix A, Targeting and Legal Considerations (12 NOV 2021).*
 		i) Inputs: 
 			-List of feasible ATIs
 		ii) Outputs:
@@ -130,7 +133,7 @@ Phase title: Commander's Decision and Force Assignment
 -----------------------------------------------------------------------
  
 1. Phase description: In this phase, the data from the previous phases is consolidated and targets are matched to operational capabilities. Forces are      assigned to targets. 
-	
+*Legal: The discrimination principle requires that attacks are directed at specific military objectives. Attacks that employ a means or method of combat that cannot be directed at a specific military objective are not permitted. For example, dropping munitions in a residential area simply because there may be military forces there is impermissible. See Air Force Doctrine Publication 3-60 Appendix A, Targeting and Legal Considerations (12 NOV 2021).*
 
 2. Phase Inputs:
 	-Draft JIPTL and/or List of Feasible ATIs
